@@ -26,6 +26,9 @@ body {
 /* Sets the header style */
 
 header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -35,16 +38,16 @@ header {
 /* Sets the positioning of the h1 elements in the header */
 
 #pjs-heading {
-    display: inline-block;
+    background-color: #d8a47f;
     font-size: 48px;
 }
 
 /* Sets the style for the navigation menu */
 
 #nav-menu{
+
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
@@ -52,13 +55,14 @@ header {
 /* Sets the style for unorderd list items (SEO, ORM, SSM) of the navigation menu */
 
 .nav-links{
+    display: inline-flex;
     list-style-type: none;
 }
 
 /* Sets the style for list topics SEO, ORM, SSM of the navigation menu */
 
 .nav-links li{
-    display: inline-block;
+    
     margin-left: 25px;
 }
 
