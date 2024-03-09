@@ -63,6 +63,15 @@ header {
 
 .nav-links li{
     
+    flex-grow: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+
     margin-left: 25px;
 }
 
@@ -71,4 +80,14 @@ header {
 .nav-links li a {
     color: #ffffff;
     text-decoration: none;
+}
+
+/* Sets the style for the banner */
+#banner-1{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
 }
