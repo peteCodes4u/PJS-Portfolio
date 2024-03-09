@@ -1,0 +1,70 @@
+/* Setting all elements to boarder-box sizing and CSS Reset to appear the same in all browsers */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Sets bacground color for the web page */
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* Sets the style for the aestetic section below the header and navigation menu */
+
+.banner-1 {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg"); 
+    background-size: cover;
+    background-position: center;
+}
+
+/* Sets the header style */
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Sets the positioning of the h1 elements in the header */
+
+#pjs-heading {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Sets the style for the navigation menu */
+
+#nav-menu{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Sets the style for unorderd list items (SEO, ORM, SSM) of the navigation menu */
+
+.nav-links{
+    list-style-type: none;
+}
+
+/* Sets the style for list topics SEO, ORM, SSM of the navigation menu */
+
+.nav-links li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Sets font colors for the navigation menu items */
+
+.nav-links li a {
+    color: #ffffff;
+    text-decoration: none;
+}
