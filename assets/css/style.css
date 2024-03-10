@@ -161,28 +161,23 @@ header {
     display:flex;
     padding: 10px;
     color:#ffffff;
+    -webkit-text-stroke-color: #341d57;
+    -webkit-text-stroke-width: 1px;
     text-align: center;
     background-image:linear-gradient(to left, #743ad5, #d53a9d);
     align-self: flex-end;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* Sets the formatting for main content section of the webpage */
-#pjs-main-content {
-    display: flex;
-    align-items: flex-start;
-}
-
 /* Sets the formatting and style for the main article about-pjs */
-#about-pjs {
+#about-pjs, #work-pjs {
     display: flex;
-
     align-items: center;
     background-color: #ffffff;    
 }
 
 /* Sets the formatting and style for "about me" header h3*/
-#about-pjs h3 {
+#about-pjs h3, #work-pjs h3 {
     align-self: stretch;
     text-align: end;
     padding-right: 25px;
@@ -196,10 +191,72 @@ header {
 
 /* sets the formatting and style for the about-pjs <p> info */
 #about-pjs p {
-    
     align-self: end;
     padding-bottom: 10px;
     padding-left:10px;
+}
 
+/* sets formatting for work-tiles */
+#work-tiles {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
+/* sets the formatting for work-pjs main-tile-1 */
+#main-tile-1 {
+    display: flex;
+    justify-content: left;
+    background-image: url("../images/Screenshot\ \(1\).png");
+    height: 400px;
+    width: 400%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* sets the formatting for work label for figures applied to work-pjs work tiles */
+.work-label {
+    display:flex;
+    align-content: stretch;
+    flex-direction: column;
+    align-self: end;
+    background-image:linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+/* sets formatting for h4 content that applies to work-pjs work labels associated with work tiles */
+h4 {
+    color:#ffffff;
+    -webkit-text-stroke-color: #341d57;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* sets formatting for h5 sub title to work-pjs work labels associated with work tiles  */
+h5 {
+    color:#ffffff;
+    -webkit-text-stroke-color: #341d57;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* sets the formatting for work-subtiles */
+#work-subtiles {
+    display: flex;
+    height: 200px;
+    width: 200%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* sets the formatting for subtile-1 of work-pjs section */
+#subtile-1 {
+    
+    background-image: url("../images/Untitled-20000.jpg");
 }
