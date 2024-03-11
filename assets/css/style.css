@@ -170,7 +170,7 @@ header {
 }
 
 /* Sets the formatting and style for the main article about-pjs */
-#about-pjs, #work-pjs {
+#abt-sec {
     display: flex;
     align-items: center;
     background-color: #ffffff;    
@@ -197,17 +197,21 @@ header {
 }
 
 /* sets formatting for work-tiles */
-#work-tiles {
+#main-work-tile {
+
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;  
+
 }
 
 /* sets the formatting for work-pjs main-tile-1 */
 #main-tile-1 {
+
+    background-image: url("../images/Screenshot\ \(1\).png");
+
     display: flex;
     justify-content: left;
-    background-image: url("../images/Screenshot\ \(1\).png");
     height: 400px;
     width: 400%;
     margin-bottom: 25px;
@@ -225,8 +229,8 @@ header {
     background-image:linear-gradient(to left, #743ad5, #d53a9d);
 }
 
-/* sets formatting for h4 content that applies to work-pjs work labels associated with work tiles */
-h4 {
+/* sets formatting for h4 and h5 content that applies to work-pjs work labels associated with work tiles */
+h4, h5 {
     color:#ffffff;
     -webkit-text-stroke-color: #341d57;
     -webkit-text-stroke-width: 1px;
@@ -235,28 +239,34 @@ h4 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* sets formatting for h5 sub title to work-pjs work labels associated with work tiles  */
+/* sets font size for h5 sub title to work-pjs work labels associated with work tiles  */
 h5 {
-    color:#ffffff;
-    -webkit-text-stroke-color: #341d57;
-    -webkit-text-stroke-width: 1px;
-    text-align: center;
     font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* sets the formatting for work-subtiles */
-#work-subtiles {
+/* #work-subtiles {
+   
+} */
+
+/* sets formatting for subtile labels */
+#sub-work-label {
+    display:flex;
+    align-content: stretch;
+    flex-direction: column;
+    align-self: end;
+    background-image:linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+/* sets the formatting for subtile-1 of work-pjs section */
+#subtile-1 {
     display: flex;
     height: 200px;
     width: 200%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
-}
-
-/* sets the formatting for subtile-1 of work-pjs section */
-#subtile-1 {
-    
     background-image: url("../images/Untitled-20000.jpg");
 }
+
+
