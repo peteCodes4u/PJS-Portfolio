@@ -107,7 +107,7 @@ header {
   }
 
 /* sets the color gradient for the borders */
-  .border-gradient-purple {
+.border-gradient-purple {
     border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
   }
 
@@ -186,17 +186,19 @@ header {
 
 /* ADD NOTE HERE */
 #top-tile {
-    background-image: url("../images/Screenshot\ \(1\).png");
-
-    
     display: flex;
     justify-content: left; 
     height: 400px;
-    width: 100%;
+    width: 1328px;
+    margin-top: 25px;
     margin-bottom: 25px; 
-    background-size: cover;
-    background-position: center; 
+    margin-left: 25px;
+    margin-right: 25px;
+
+    background-image: url("../images/Screenshot\ \(1\).png");
 }
+
+
 
 /* ADD NOTE HERE */
 h4, h5 {
@@ -213,7 +215,6 @@ h5 {
     font-size: 18px;
 }
 
-/* ADD NOTE HERE */
 
 
 /* sets the formatting for work label for figures applied to work-pjs work tiles */
@@ -225,14 +226,17 @@ h5 {
     background-image:linear-gradient(to left, #743ad5, #d53a9d);
 }
 
+
 /* ADD NOTE HERE */
 #tile-2 {
     background-image: url("../images/Untitled-20000.jpg");
     display: flex;
     justify-content: left;
     height: 200px;
-    width: 50%;
-    margin-bottom: 25px;
+    width: 664px;
+    margin-bottom: 25px; 
+    margin-left: 25px;
+    margin-right: 5px;
     background-size: cover;
     background-position: center; 
 }
@@ -243,8 +247,7 @@ h5 {
     display: flex;
     justify-content: left;
     height: 200px;
-    width: 50%;
-    margin-bottom: 25px;
+    width: 664px;
     background-size: cover;
     background-position: center; 
 }
@@ -255,8 +258,10 @@ h5 {
     display: flex;
     justify-content: left;
     height: 200px;
-    width: 50%;
-    margin-bottom: 25px;
+    width: 664px;
+    margin-bottom: 25px; 
+    margin-left: 25px;
+    margin-right: 5px;
     background-size: cover;
     background-position: center; 
 }
@@ -267,7 +272,7 @@ h5 {
     display: flex;
     justify-content: left;
     height: 200px;
-    width: 50%;
+    width: 664px;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center; 
@@ -279,7 +284,6 @@ h5 {
     display: flex;
     align-content: center;
     flex-direction: column;
-    flex: 0 0 100%;
 }
 
 /* ADD NOTE HERE */
