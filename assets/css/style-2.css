@@ -192,9 +192,8 @@ header {
 /* Sets the formatting for article work-pjs tile-1 (top tile) */
 #top-tile {
     display: flex;
-    justify-content: left; 
     height: 400px;
-    width: 1328px;
+    width: 180vh;
     margin-top: 25px;
     margin-bottom: 25px; 
     margin-left: 25px;
@@ -241,9 +240,9 @@ h5 {
     display: flex;
     justify-content: left;
     height: 200px;
-    width: 664px;
+    width: 90vh;
     margin-bottom: 25px; 
-    margin-left: 25px;
+    margin-left: 10px;
     margin-right: 5px;
     background-size: cover;
     background-position: center; 
