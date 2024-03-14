@@ -290,49 +290,52 @@ h5 {
 .subtiles {
     display: flex;
     flex-direction: row;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
 
 }
 
-/* ADD NOTE HERE */
-footer {
+
+/* article contact-pjs */
+#contact-pjs {
+    /* display: flex;
+    justify-content: start;
+    background-color: #ffffff;
+    padding: 125px; */
+
+
+}
+
+/* contact-sec */
+#contact-sec {
+    
+    
+}
+
+/* contact-sec h3 */
+#contact-pjs h3 {
+
     display: flex;
-    flex-wrap: wrap;
-    /* align-items: center; */
-    background-color: #ffffff; 
-}
-/* ADD NOTE HERE */
-#contact-pjs-sec {
- display:flex;
- align-content: space-between;
-}
-
-/* Add Note Here */
-#contact-heading {
-    display:flex;
-    align-items: center;
-    text-align: end;
-    padding-right: 25px;
-
-    flex-wrap: wrap;
-    text-align: center;
+  
     padding-right: 25px;
     font-size: 48px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
 
 }
 
-/* Add NOTE HERE */
-#contact-pjs-data {
-    display:flex;
-    align-content: space-between;
+/* contact-pjs-data ul  */
+#contact-pjs-data ul {
+    display: flex;
+    flex-direction: row;
+}
+
+/* contact-pjs-data */
+#contact-pjs-data ul li a {
 
 }
 
-/* add note here */
-#contact-pjs-data li a {
-    color: #341d57;
-    padding-top: 15px;
-    margin-right: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
