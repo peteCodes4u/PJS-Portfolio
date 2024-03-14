@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style-2.css">
     <title>PJS-Portfolio</title>
 </head>
-
 <!-- section 1 content : pjs-heading and nav-menu -->
 <body>
 <header>
@@ -21,7 +20,7 @@
             <a href="#work-pjs" role="link">Work</a>
         </li>
         <li class="border-gradient border-gradient-purple">
-            <a href="" role="link">Contact Me</a>
+            <a href="#contact-pjs" role="link">Contact Me</a>
         </li>
         <li class="border-gradient border-gradient-purple">
             <a href="" role="link">Resume</a>
@@ -35,7 +34,7 @@
 </section>
 <!-- section 3 content : main information -->
 <main id="pjs-main-content">
-    <!-- about me section 3.1 -->
+<!-- about me section 3.1 -->
     <article id="about-pjs">
     <section id="abt-sec">
         <h3 class="border-gradient border-gradient-purple">About Me</h3>
@@ -46,11 +45,12 @@
     </section>
     </article>
     <br>
+<!-- section 3.2 content : work -->
     <article id="work-pjs">
         <section id="w-sec">
             <h3 class="border-gradient border-gradient-purple">Work</h3>
             <figure id="work-tiles">
-                <!-- Top Tile -->
+<!-- Top Tile -->
                     <section id="top-tile" class="border-gradient border-gradient-purple" alt="ALT-TEXT-HERE">                        
                         <section class="work-label">
                             <h4>Semantic HTML refactor</h4>
@@ -58,7 +58,7 @@
                         </section>
                     </section>
 
-                <!-- Subtiles -->
+<!-- Subtiles -->
                     <section class="subtiles">
                         <section id="tile-2" class="border-gradient border-gradient-purple">
                             <section class="work-label">
@@ -93,31 +93,41 @@
             </section>
         </section>
     </article>
-<!-- section 3.2 content : work -->
-</main>
 <br>
-<footer>
-    <section id="contact-pjs-sec">
-        <section id="contact-heading">
-            <h3 class="border-gradient border-gradient-purple">Contact Me</h3>
-        </section>
-        
+<!-- Contact me section -->
+<article id="contact-pjs">
+    <section id="contact-sec">
+        <h3 class="border-gradient border-gradient-purple">Contact Me</h3>
         <section id="contact-pjs-data">
-            <ul class ="nav-links">
-                <li class="border-gradient border-gradient-purple">
-                    <a>(603) 801 - 9877</a>
+            <ul>
+                <li>
+                    <section class="contact-card">
+                        <img src="assets/images/email-icon.svg" id="email-icon">
+                        <p class="border-gradient border-gradient-purple">peter.appliedanalyticalsciences@gmail.com</p>
+                    </section> 
                 </li>
-                <li class="border-gradient border-gradient-purple">
-                    <a>peter.appliedanalyticalsciences@gmail.com</a>
+                <li>
+                    <section class="contact-card">
+                        <img src="assets/images/mobile-icon.svg" id="mobile-icon">
+                        <p class="border-gradient border-gradient-purple" id="psPhone">(603) 801 - 9877</p>
+                    </section>                         
                 </li>
-                <li class="border-gradient border-gradient-purple">
-                    <a href="https://github.com/peteCodes4u" role="link">GitHub</a>
+                <li>
+                    <section class="contact-card">
+                        <img src="assets/images/github-icon.svg" id="github-icon">
+                        <p class="border-gradient border-gradient-purple" id="psGithub">https://github.com/peteCodes4u</p>
+                    </section>
                 </li>
-                <li class="border-gradient border-gradient-purple">
-                    <a href="https://open.spotify.com/track/5pnTCQtDRSfGCeltGF5Hgz" role="link">Spotify</a>
+                <li>
+                    <section class="contact-card">
+                        <img src="assets/images/spotify-icon.svg" id="spotify-icon">
+                        <p class="border-gradient border-gradient-purple" id="psSpotify" href="https://open.spotify.com/track/5pnTCQtDRSfGCeltGF5Hgz" role="link">Spotify</p>
+                    </section>
                 </li>
-            </ul>        
+            </ul>  
         </section>
     </section>
-</footer>
+</article>
+</main>
+<br>
 </body>

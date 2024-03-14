@@ -7,7 +7,7 @@
 
 /* Sets bacground color for the web page */
 body {
-    background: content-box radial-gradient( #511139 0%, #5f0b50 27%, #4f053f 52%, #341d57 65%, #480e5c 83%, #3f1766 100%);
+    background-image: url("../images/bg-theme.png");
 }
 
 /* Sets the header style */
@@ -23,9 +23,9 @@ header {
 #pjs-heading {
     flex-basis: 35%;
     text-align: right;
-    align-content: left;
     background-image:linear-gradient(to left, #743ad5, #d53a9d);
     font-size: 48px;
+    padding: 15px;
 }
 
 /* Establishes the gradient animation in the header title */ 
@@ -54,12 +54,12 @@ header {
     animation: color-gradient-animation 0.75s ease forwards;
   }
 
-    /* Animation event trigger for cursor hover  */
+/* Animation event trigger for cursor hover  */
   .gradient-text:hover{
       animation: color-gradient-animation-cursor 0.5s ease-in forwards;
   }
 
-    /* Animation code - page load */
+/* Animation code - page load */
   @keyframes color-gradient-animation {
       0% {
           background-size: 650%;
@@ -89,7 +89,8 @@ header {
     padding-top: 15px;
     margin-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 /* Sets the style for unorderd list items of the navigation menu */
@@ -112,7 +113,6 @@ header {
   }
 
 /* Sets the style for navigation menu items */
-
 .nav-links li{ 
     flex-grow: 1 0 200px;
     padding: 10px;
@@ -122,12 +122,10 @@ header {
     border-left: none;
     border-right: none;
     border-width: 5px; 
-    margin-left: 25px;
-        
+    margin-left: 25px;     
 }
 
 /* Sets font colors for the navigation menu items */
-
 .nav-links li a {
     color: #ffffff;
     text-decoration: none;
@@ -145,27 +143,30 @@ header {
     background-position: center;
 }
 
-/* Sets the positioning and style for <h2> */
+/* Sets the positioning and style for pjs-heading-2 */
 .pjs-heading-2 {
     display:flex;
     padding: 10px;
     color:#ffffff;
     -webkit-text-stroke-color: #341d57;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1.5px;
     text-align: center;
     background-image:linear-gradient(to left, #743ad5, #d53a9d);
     align-self: flex-end;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-/* Sets the formatting and style for the main article about-pjs */
-#abt-sec, #w-sec {
+/* Sets the formatting and style for the main articles about-pjs, work-pjs and contact-pjs content sections  */
+#abt-sec, #w-sec, #contact-sec {
     display: flex;
     align-items: center;
     background-color: #ffffff;    
 }
 
-#about-pjs h3, #work-pjs h3 {
+/* Sets the formatting for the Headers for each of the main articles */
+#about-pjs h3, #work-pjs h3, #contact-pjs h3 {
     align-self: stretch;
     text-align: end;
     padding-right: 25px;
@@ -182,9 +183,10 @@ header {
     align-self: end;
     padding-bottom: 10px;
     padding-left:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* ADD NOTE HERE */
+/* Sets the formatting for article work-pjs tile-1 (top tile) */
 #top-tile {
     display: flex;
     justify-content: left; 
@@ -194,13 +196,10 @@ header {
     margin-bottom: 25px; 
     margin-left: 25px;
     margin-right: 25px;
-
     background-image: url("../images/Screenshot\ \(1\).png");
 }
 
-
-
-/* ADD NOTE HERE */
+/* Sets the formatting for the work-label text content*/
 h4, h5 {
     color:#ffffff;
     -webkit-text-stroke-color: #341d57;
@@ -215,9 +214,7 @@ h5 {
     font-size: 18px;
 }
 
-
-
-/* sets the formatting for work label for figures applied to work-pjs work tiles */
+/* sets the formatting for work label for styles applied to work-pjs work tiles */
 .work-label {
     display:flex;
     align-content: stretch;
@@ -226,8 +223,7 @@ h5 {
     background-image:linear-gradient(to left, #743ad5, #d53a9d);
 }
 
-
-/* ADD NOTE HERE */
+/* Sets the formatting and image for the first work-pjs subtile tile-2 */
 #tile-2 {
     background-image: url("../images/Untitled-20000.jpg");
     display: flex;
@@ -241,7 +237,7 @@ h5 {
     background-position: center; 
 }
 
-/* ADD NOTE HERE */
+/* Sets the formatting and image for the first work-pjs subtile tile-3 */
 #tile-3 {
     background-image: url("../images/DavidFractal_2.gif");
     display: flex;
@@ -252,7 +248,7 @@ h5 {
     background-position: center; 
 }
 
-/* ADD NOTE HERE */
+/* Sets the formatting and image for the first work-pjs subtile tile-4 */
 #tile-4 {
     background-image: url("../images/loFi-ComputerChill.gif");
     display: flex;
@@ -266,7 +262,7 @@ h5 {
     background-position: center; 
 }
 
-/* ADD NOTE HERE */
+/* Sets the formatting and image for the first work-pjs subtile tile-5 */
 #tile-5 {
     background-image: url("../images/PeteWBooks.png");
     display: flex;
@@ -278,57 +274,42 @@ h5 {
     background-position: center; 
 }
 
-/* ADD NOTE HERE */
-
-#work-tiles {
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-}
-
-/* ADD NOTE HERE */
+/* Establishes the configuration of the subtiles in the work-pjs article */
 .subtiles {
     display: flex;
     flex-direction: row;
-
 }
 
-/* ADD NOTE HERE */
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: #ffffff; 
-}
-/* ADD NOTE HERE */
-#contact-pjs-sec {
- display:flex;
- align-content: space-between;
+/* sets the configuration for the contact-pjs list items */
+#contact-pjs-data ul li {
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 50px;
 }
 
-/* Add Note Here */
-#contact-heading {
-    display:flex;
-    flex-wrap: wrap;
-    text-align: start;
-    padding-right: 25px;
-    font-size: 48px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+/* sets the size for the contact-pjs list icons */
+#email-icon, #mobile-icon, #github-icon, #spotify-icon {
+    height: 275px;
+    width: 275px;
 }
 
-/* Add NOTE HERE */
-#contact-pjs-data {
-    display:flex;
-    align-content: space-between;
-
-}
-
-/* add note here */
-#contact-pjs-data li a {
-    color: #341d57;
-    padding-top: 15px;
-    margin-right: 20px;
+/* sets the formatting for the text content of the contact-pjs main article */
+.contact-card p {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 5px; 
+    padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    color: #341d57;
 }
+
+
+
+
+
+
