@@ -1,14 +1,3 @@
-/* ColorSheme */
-/* https://github.com/fantasyui-com/synthwave/blob/master/style.css */
-/* gradient borders */
-/* https://css-tricks.com/gradient-borders-in-css/ */
-/* Title text gradient animation */
-/* https://fossheim.io/writing/posts/css-text-gradient/ */
-/* Animation - Work */
-/* https://www.youtube.com/watch?v=YTHYroxZOoE */
-
-
-
 /* Setting all elements to boarder-box sizing and CSS Reset to appear the same in all browsers */
 * {
     box-sizing: border-box;
@@ -18,7 +7,8 @@
 
 /* Sets bacground color for the web page */
 body {
-    background: content-box radial-gradient( #511139 0%, #5f0b50 27%, #4f053f 52%, #341d57 65%, #480e5c 83%, #3f1766 100%);
+
+    background-image: url("../images/bg-theme-4.png");
 }
 
 /* Sets the header style */
@@ -34,9 +24,9 @@ header {
 #pjs-heading {
     flex-basis: 35%;
     text-align: right;
-    align-content: left;
     background-image:linear-gradient(to left, #743ad5, #d53a9d);
     font-size: 48px;
+    padding: 15px;
 }
 
 /* Establishes the gradient animation in the header title */ 
@@ -53,24 +43,22 @@ header {
           #F18F43 50%,  
           #E16541 66.666%, 
           #CA4246 83.333% );
-    
-
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #ffffff;
-        /* Animation event trigger for page load */
+    /* Animation event trigger for page load */
     animation: color-gradient-animation 0.75s ease forwards;
   }
 
-    /* Animation event trigger for cursor hover  */
+/* Animation event trigger for cursor hover on PJS-Development title */
   .gradient-text:hover{
       animation: color-gradient-animation-cursor 0.5s ease-in forwards;
   }
 
-    /* Animation code - page load */
+/* Animation code - page load */
   @keyframes color-gradient-animation {
       0% {
           background-size: 650%;
@@ -93,20 +81,26 @@ header {
           background-size: 650%;
       }
   }
-
-
 /* Sets the style for the navigation menu */
 #nav-menu{
     padding-top: 15px;
     margin-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 /* Sets the style for unorderd list items of the navigation menu */
 .nav-links{
     display: inline-flex;
     list-style-type: none;
+}
+
+/* establishes opacity change for navigation menu links on cursor hover */
+#nav-abt:hover, #nav-wrk:hover, #cntct-me:hover, #nav-res:hover { 
+    color:#defb04;
+    -webkit-text-stroke-color: #341d57;
+    -webkit-text-stroke-width: 1px;
 
 }
 
@@ -118,12 +112,11 @@ header {
   }
 
 /* sets the color gradient for the borders */
-  .border-gradient-purple {
+.border-gradient-purple {
     border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
   }
 
 /* Sets the style for navigation menu items */
-
 .nav-links li{ 
     flex-grow: 1 0 200px;
     padding: 10px;
@@ -133,15 +126,16 @@ header {
     border-left: none;
     border-right: none;
     border-width: 5px; 
-    margin-left: 25px;
-        
+    margin-left: 25px;     
 }
 
 /* Sets font colors for the navigation menu items */
-
 .nav-links li a {
     color: #ffffff;
     text-decoration: none;
+    -webkit-text-stroke-color: #341d57;
+    -webkit-text-stroke-width: 1.5px;
+
 }
 
 /* Sets the style for the banner */
@@ -156,28 +150,29 @@ header {
     background-position: center;
 }
 
-/* Sets the positioning and style for <h2> */
+/* Sets the positioning and style for pjs-heading-2 */
 .pjs-heading-2 {
     display:flex;
     padding: 10px;
     color:#ffffff;
     -webkit-text-stroke-color: #341d57;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1.5px;
     text-align: center;
     background-image:linear-gradient(to left, #743ad5, #d53a9d);
     align-self: flex-end;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-/* Sets the formatting and style for the main article about-pjs */
-#abt-sec {
+/* Sets the formatting and style for the main articles about-pjs, work-pjs and contact-pjs content sections  */
+#abt-sec, #w-sec, #contact-sec {
     display: flex;
-    align-items: center;
-    background-color: #ffffff;    
+    background-color: #ffffff;
 }
 
-/* Sets the formatting and style for "about me" header h3*/
-#about-pjs h3, #work-pjs h3 {
+/* Sets the formatting for the Headers for each of the main articles */
+#about-pjs h3, #work-pjs h3, #contact-pjs h3 {
     align-self: stretch;
     text-align: end;
     padding-right: 25px;
@@ -194,42 +189,30 @@ header {
     align-self: end;
     padding-bottom: 10px;
     padding-left:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
-/* sets formatting for work-tiles */
-#main-work-tile {
-
+/* Sets the formatting for article work-pjs tile-1 (top tile) */
+#top-tile {
     display: flex;
-    align-items: center;
-    background-color: #ffffff;  
-
-}
-
-/* sets the formatting for work-pjs main-tile-1 */
-#main-tile-1 {
-
-    background-image: url("../images/Screenshot\ \(1\).png");
-
-    display: flex;
-    justify-content: left;
     height: 400px;
-    width: 400%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
-
+    width: 180vh;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+    margin-left: 25px;
+    margin-right: 25px;
+    background-image: url("../images/Screenshot\ \(1\).png");
+    opacity: 1; /* initial opacity */
+    transition: opacity 0.5s ease; /* transition effect */
 }
 
-/* sets the formatting for work label for figures applied to work-pjs work tiles */
-.work-label {
-    display:flex;
-    align-content: stretch;
-    flex-direction: column;
-    align-self: end;
-    background-image:linear-gradient(to left, #743ad5, #d53a9d);
+/* Establishes the opacity change when the user's cursor hovers over work tiles */
+#top-tile:hover, #tile-2:hover, #tile-3:hover, #tile-4:hover, #tile-5:hover {
+    opacity: 0.9; /* final opacity */
 }
 
-/* sets formatting for h4 and h5 content that applies to work-pjs work labels associated with work tiles */
+
+/* Sets the formatting for the work-label text content*/
 h4, h5 {
     color:#ffffff;
     -webkit-text-stroke-color: #341d57;
@@ -244,29 +227,103 @@ h5 {
     font-size: 18px;
 }
 
-/* sets the formatting for work-subtiles */
-/* #work-subtiles {
-   
-} */
-
-/* sets formatting for subtile labels */
-#sub-work-label {
+/* sets the formatting for work label for styles applied to work-pjs work tiles */
+.work-label {
     display:flex;
     align-content: stretch;
     flex-direction: column;
     align-self: end;
     background-image:linear-gradient(to left, #743ad5, #d53a9d);
+    opacity: 1;
 }
 
-/* sets the formatting for subtile-1 of work-pjs section */
-#subtile-1 {
+/* Sets the link for the work-tile main tile */
+.work-label a {
+    /* display: none; */
+    font-size: 50;
+}
+
+/* Sets the formatting and image for the first work-pjs subtile tiles (2-5) */
+#tile-2, #tile-3, #tile-4, #tile-5 {
+    
     display: flex;
+    justify-content: left;
     height: 200px;
-    width: 200%;
-    margin-bottom: 25px;
+    width: 90vh;
+    margin-bottom: 25px; 
+    margin-left: 10px;
+    margin-right: 5px;
     background-size: cover;
-    background-position: center;
+    background-position: center; 
+}
+
+/* sets the image for tile-2 */
+#tile-2 {
     background-image: url("../images/Untitled-20000.jpg");
 }
+
+/* sets the image for subtile tile-3 */
+#tile-3 {
+    background-image: url("../images/DavidFractal_2.gif");
+
+}
+
+/* sets the image for subtile tile-4 */
+#tile-4 {
+    background-image: url("../images/loFi-ComputerChill.gif");
+
+}
+
+/* sets the image for subtile tile-5 */
+#tile-5 {
+    background-image: url("../images/PeteWBooks.png");
+}
+
+/* Establishes the configuration of the subtiles in the work-pjs article */
+.subtiles {
+    display: flex;
+    flex-direction: row;
+    opacity: 1;
+}
+
+/* sets the configuration for the contact-pjs list items */
+#contact-pjs-data ul li {
+    display: inline-flex;
+    /* align-content: stretch; */
+    list-style-type: none;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 50px;
+}
+
+/* establishes style change when user's cursor hovors over Contact Me icons */
+#contact-pjs-data ul li:hover {
+    background-color:#733ad569;
+}
+/* sets the size for the contact-pjs list icons */
+#email-icon, #mobile-icon, #github-icon, #spotify-icon, #youtube-icon {
+    /* display: flex; */
+    
+    justify-content: center;
+    height: 20vh;
+    width: 20vh;
+}
+
+/* sets the formatting for the text content of the contact-pjs main article */
+.contact-card p {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 5px; 
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #341d57;
+}
+
+
+
+
 
 
