@@ -18,15 +18,29 @@ header {
     justify-content: space-between;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 /* Sets the positioning of the h1 elements in the header */
 #pjs-heading {
-    flex-basis: 35%;
-    text-align: right;
-    background-image:linear-gradient(to left, #743ad5, #d53a9d);
+    
     font-size: 48px;
     padding: 15px;
+}
+
+/* Applies pjs-profile pic */
+#pjs-profile-pic {
+    background-image: url("../images/PeteBook-thumbNail.png");
+    height: 150px;
+    width: 150px;
+    padding: none;
+}
+
+#pjs-head {
+    display: flex;
+    flex-direction:row;
+    flex-basis: 35%;
+    background-image:linear-gradient(to left, #743ad5, #d53a9d);
 }
 
 /* Establishes the gradient animation in the header title */ 
@@ -47,8 +61,8 @@ header {
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #020202;
     /* Animation event trigger for page load */
     animation: color-gradient-animation 0.75s ease forwards;
   }
