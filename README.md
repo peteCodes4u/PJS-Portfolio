@@ -45,6 +45,8 @@ https://fossheim.io/writing/posts/css-text-gradient/
  
  **THEN :** the Gradient transition animation applied to "Peter Smith" will execute, and the user will observe a gradient transition animation.
 
+##
+
  **Features - Navigation menu items "About Me", "Work", "Contact Me", "Resume"**
 
   **GIVEN :** the webpage loads successfully.  
