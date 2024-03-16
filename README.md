@@ -37,53 +37,53 @@ https://fossheim.io/writing/posts/css-text-gradient/
 
 ## Front End Manual Tests
  
- *Feature - "Peter Smith" header*
+ **Feature - "Peter Smith" header**
  
- GIVEN : The webpage loads successfully.
- WHEN : The page loads OR the user hovers their cursor over the text
- Then : the Gradient transition animation applied to "Peter Smith" will execute, and the user will observe a gradient transition animation.
+ **GIVEN :** the webpage loads successfully.
+ **WHEN :** the page loads OR the user hovers their cursor over the text
+ **THEN :** the Gradient transition animation applied to "Peter Smith" will execute, and the user will observe a gradient transition animation.
 
- Features - Navigation menu items "About Me", "Work", "Contact Me", "Resume"
- 
- GIVEN : The webpage loads successfully.
- WHEN : the user hovers their cursor over the text.
- Then : the text color will change from white to yellow.
+ **Features - Navigation menu items "About Me", "Work", "Contact Me", "Resume"**
 
- Features - Navigation menu items "About Me", "Work", "Contact Me"
+  **GIVEN :** the webpage loads successfully.  
+ **WHEN :** the user hovers their cursor over the text. 
+ **THEN :** the text color will change from white to yellow. 
 
- GIVEN : The webpage loads successfully.
- WHEN : the user clicks on the link text.
- Then : the user will be redirected to the respective section of the website "About Me", "Work", "Contact Me".
+ **Features - Navigation menu items "About Me", "Work", "Contact Me"**
 
- Feature - Navigation menu items "Resume"
+ **GIVEN :** The webpage loads successfully.
+ **WHEN :** the user clicks on the link text.
+ **Then :** the user will be redirected to the respective section of the website "About Me", "Work", "Contact Me".
 
- GIVEN : The webpage loads successfully.
- WHEN : the user clicks on the link text.
- Then : A download of Peter's resume will execute rendering a .pdf file in the user's downloads folder.
+ **Feature - Navigation menu items "Resume"**
 
- Feature - "Work" section top tile
+ **GIVEN :** The webpage loads successfully.
+ **WHEN :** the user clicks on the link text.
+ **Then :** A download of Peter's resume will execute rendering a .pdf file in the user's downloads folder.
 
- GIVEN : The webpage loads successfully.
- WHEN : the user clicks on the top tile anywhere.
- Then : the user will be redirected to an example of a live deployed project completed by Peter J. Smith.
+ **Feature - "Work" section top tile**
 
- Feature - "Work" section tiles
+ **GIVEN :** The webpage loads successfully.
+ **WHEN :** the user clicks on the top tile anywhere.
+ **Then :** the user will be redirected to an example of a live deployed project completed by Peter J. Smith.
 
- GIVEN : The webpage loads successfully.
- WHEN : the user hovers thier cursor over a tile.
- Then : the user will observe the tile opacity change.
+ **Feature - "Work" section tiles**
 
- Feature - "Contact Me" section icons 
+ **GIVEN :** The webpage loads successfully.
+ **WHEN :** the user hovers thier cursor over a tile.
+ **Then :** the user will observe the tile opacity change.
 
- GIVEN : The webpage loads successfully.
- WHEN : the user hovers thier cursor over an icon.
- Then : the user will observe the icon highlight in light purple.
+ **Feature - "Contact Me" section icons** 
 
-  Feature - "Contact Me" section icons "GitHub", "Spotify", "Youtube"
+ **GIVEN :** The webpage loads successfully.
+ **WHEN :** the user hovers thier cursor over an icon.
+ **Then :** the user will observe the icon highlight in light purple.
 
- GIVEN : The webpage loads successfully.
- WHEN : the user clicks on the icon anywhere.
- Then : the user will be redirected to an external respective link associated with the assigned service host.
+  **Feature - "Contact Me" section icons "GitHub", "Spotify", "Youtube"**
+
+ **GIVEN :** The webpage loads successfully.
+ **WHEN :** the user clicks on the icon anywhere.
+ **Then :** the user will be redirected to an external respective link associated with the assigned service host.
 
 
  
