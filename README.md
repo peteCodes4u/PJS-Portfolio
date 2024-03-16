@@ -37,7 +37,7 @@ https://fossheim.io/writing/posts/css-text-gradient/
 
 ## Front End Manual Tests
  
- Feature - "Peter Smith" header
+ *Feature - "Peter Smith" header*
  
  GIVEN : The webpage loads successfully.
  WHEN : The page loads OR the user hovers their cursor over the text
