@@ -13,7 +13,7 @@ This project has been created to showcase and exercise various web development s
 
 The inteded usage of this webpage is to review information about the engineer Peter J. Smith of Tampa Florida. Please feel free to inspect the webpage and review the CSS and HTML documents to take a look under the hood of this relativly simple project. 
 
-##Screenshot
+## Screenshot
 
 ![](images/PJS-Portfolio-Screenshot.png)
 
