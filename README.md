@@ -9,6 +9,9 @@ This project has been created to showcase and exercise various web development s
 - [Usage](#usage)
 - [Credits](#credits)
 
+## Link to Website
+https://petecodes4u.github.io/PJS-Portfolio/
+
 ## Usage
 
 The inteded usage of this webpage is to review information about the engineer Peter J. Smith of Tampa Florida. Please feel free to inspect the webpage and review the CSS and HTML documents to take a look under the hood of this relativly simple project. 
