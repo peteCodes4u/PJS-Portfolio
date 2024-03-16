@@ -13,8 +13,7 @@ This project has been created to showcase and exercise various web development s
 
 The inteded usage of this webpage is to review information about the engineer Peter J. Smith of Tampa Florida. Please feel free to inspect the webpage and review the CSS and HTML documents to take a look under the hood of this relativly simple project. 
 
-
-    ![Alt text](/assets/images/PJS-Portfolio-Screenshot.png?raw=true "PJS-Portfolio Screenshot")
+![](./assets/images/pScreenshot.png)
 
 ## Credits
 I would like to credit Sarah L. Fossheim for her tutorial on adding gradient overlay to text with CSS. The techniques she described were used to produce the gradient border and text effects in this project.
