@@ -7,14 +7,10 @@
 
 /* Sets bacground color for the web page */
 body {
-
-    /* background-image: url("../images/bg-theme-4.png"); */
     background-image: url(../images/bg-theme-laser-2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-
 }
 
 /* Sets the header style */
@@ -29,13 +25,10 @@ header {
 
 /* Sets the positioning of the h1 elements in the header */
 #pjs-heading {
-    
     font-size: 48px;
-    padding: 40px;
+    padding: 20px;
     color:#ff555b;
     text-shadow: rgb(74, 3, 94) 0 0 20px;
-    
-    
 }
 
 /* Applies pjs-profile pic */
@@ -43,15 +36,14 @@ header {
     
     background-image: url("../images/PeteBook-thumbNail.png");
     height: 150px;
-    width: 150px;
-    
+    width: 150px; 
 }
 
 /* Adds background gradient to #pjs-heading header */
 #pjs-head {
     display: flex;
     flex-direction:row;
-    flex-basis: 35%;
+    flex-basis: 25%;
     background-image:linear-gradient(to left, #743ad5, #3ab1d5);  
 }
 
