@@ -49,10 +49,11 @@ https://fossheim.io/writing/posts/css-text-gradient/
 
  **Features - Navigation menu items "About Me", "Work", "Contact Me", "Resume"**
 
-  **GIVEN :** the webpage loads successfully.  
+ **GIVEN :** the webpage loads successfully.  
  **WHEN :** the user hovers their cursor over the text. 
  **THEN :** the text color will change from white to yellow. 
 
+##
  **Features - Navigation menu items "About Me", "Work", "Contact Me"**
 
  **GIVEN :** The webpage loads successfully.
