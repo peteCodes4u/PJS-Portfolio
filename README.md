@@ -2,7 +2,7 @@
 
 ## Description
 
-This project has been created to showcase and exercise various web development skills. This poject is engineered to demonstrate responsive design web behaviors using HTML and CSS.   
+This project has been created to showcase and exercise various web development skills. This project is engineered to demonstrate responsive design web behaviors using HTML and CSS.   
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ https://petecodes4u.github.io/PJS-Portfolio/
 
 ## Usage
 
-The inteded usage of this webpage is to review information about the engineer Peter J. Smith of Tampa Florida. Please feel free to inspect the webpage and review the CSS and HTML documents to take a look under the hood of this relativly simple project. 
+The intended usage of this webpage is to review information about the engineer Peter J. Smith of Tampa Florida. Please feel free to inspect the webpage and review the CSS and HTML documents to take a look under the hood of this relatively simple project. 
 
 ![](./assets/images/pScreenshot.png)
 
@@ -94,7 +94,7 @@ https://fossheim.io/writing/posts/css-text-gradient/
 
  **GIVEN :** The webpage loads successfully.
  
- **WHEN :** the user hovers thier cursor over a tile.
+ **WHEN :** the user hovers their cursor over a tile.
  
  **THEN :** the user will observe the tile opacity change.
 
@@ -104,7 +104,7 @@ https://fossheim.io/writing/posts/css-text-gradient/
 
  **GIVEN :** The webpage loads successfully.
  
- **WHEN :** the user hovers thier cursor over an icon.
+ **WHEN :** the user hovers their cursor over an icon.
  
  **THEN :** the user will observe the icon highlight in light purple.
 
