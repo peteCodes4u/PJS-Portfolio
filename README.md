@@ -50,45 +50,69 @@ https://fossheim.io/writing/posts/css-text-gradient/
  **Features - Navigation menu items "About Me", "Work", "Contact Me", "Resume"**
 
  **GIVEN :** the webpage loads successfully.  
- **WHEN :** the user hovers their cursor over the text. 
+ 
+ **WHEN :** the user hovers their cursor over the text.
+ 
  **THEN :** the text color will change from white to yellow. 
 
 ##
+
  **Features - Navigation menu items "About Me", "Work", "Contact Me"**
 
  **GIVEN :** The webpage loads successfully.
+ 
  **WHEN :** the user clicks on the link text.
- **Then :** the user will be redirected to the respective section of the website "About Me", "Work", "Contact Me".
+ 
+ **THEN :** the user will be redirected to the respective section of the website "About Me", "Work", "Contact Me".
+
+##
 
  **Feature - Navigation menu items "Resume"**
 
  **GIVEN :** The webpage loads successfully.
+ 
  **WHEN :** the user clicks on the link text.
- **Then :** A download of Peter's resume will execute rendering a .pdf file in the user's downloads folder.
+ 
+ **THEN :** A download of Peter's resume will execute rendering a .pdf file in the user's downloads folder.
+
+##
 
  **Feature - "Work" section top tile**
 
  **GIVEN :** The webpage loads successfully.
+
  **WHEN :** the user clicks on the top tile anywhere.
- **Then :** the user will be redirected to an example of a live deployed project completed by Peter J. Smith.
+ 
+ **THEN :** the user will be redirected to an example of a live deployed project completed by Peter J. Smith.
+
+##
 
  **Feature - "Work" section tiles**
 
  **GIVEN :** The webpage loads successfully.
+ 
  **WHEN :** the user hovers thier cursor over a tile.
- **Then :** the user will observe the tile opacity change.
+ 
+ **THEN :** the user will observe the tile opacity change.
+
+##
 
  **Feature - "Contact Me" section icons** 
 
  **GIVEN :** The webpage loads successfully.
+ 
  **WHEN :** the user hovers thier cursor over an icon.
- **Then :** the user will observe the icon highlight in light purple.
+ 
+ **THEN :** the user will observe the icon highlight in light purple.
 
+##
   **Feature - "Contact Me" section icons "GitHub", "Spotify", "Youtube"**
 
  **GIVEN :** The webpage loads successfully.
+ 
  **WHEN :** the user clicks on the icon anywhere.
- **Then :** the user will be redirected to an external respective link associated with the assigned service host.
+ 
+ **THEN :** the user will be redirected to an external respective link associated with the assigned service host.
 
 
  
