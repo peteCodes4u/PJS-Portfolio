@@ -40,7 +40,9 @@ https://fossheim.io/writing/posts/css-text-gradient/
  **Feature - "Peter Smith" header**
  
  **GIVEN :** the webpage loads successfully.
- **WHEN :** the page loads OR the user hovers their cursor over the text
+ 
+ **WHEN :** the page loads OR the user hovers their cursor over the text.
+ 
  **THEN :** the Gradient transition animation applied to "Peter Smith" will execute, and the user will observe a gradient transition animation.
 
  **Features - Navigation menu items "About Me", "Work", "Contact Me", "Resume"**
