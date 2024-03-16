@@ -15,7 +15,7 @@ The inteded usage of this webpage is to review information about the engineer Pe
 
 ## Screenshot
 
-![](images/PJS-Portfolio-Screenshot.png)
+![](images/Screenshot.png)
 
 ## Credits
 I would like to credit Sarah L. Fossheim for her tutorial on adding gradient overlay to text with CSS. The techniques she described were used to produce the gradient border and text effects in this project.
