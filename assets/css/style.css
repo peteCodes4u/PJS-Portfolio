@@ -8,7 +8,13 @@
 /* Sets bacground color for the web page */
 body {
 
-    background-image: url("../images/bg-theme-4.png");
+    /* background-image: url("../images/bg-theme-4.png"); */
+    background-image: url(../images/bg-theme-laser-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
 }
 
 /* Sets the header style */
@@ -18,53 +24,59 @@ header {
     justify-content: space-between;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    
 }
 
 /* Sets the positioning of the h1 elements in the header */
 #pjs-heading {
     
     font-size: 48px;
-    padding: 15px;
+    padding: 40px;
+    color:#ff555b;
+    text-shadow: rgb(74, 3, 94) 0 0 20px;
+    
+    
 }
 
 /* Applies pjs-profile pic */
 #pjs-profile-pic {
+    
     background-image: url("../images/PeteBook-thumbNail.png");
     height: 150px;
     width: 150px;
-    padding: none;
+    
 }
 
+/* Adds background gradient to #pjs-heading header */
 #pjs-head {
     display: flex;
     flex-direction:row;
     flex-basis: 35%;
-    background-image:linear-gradient(to left, #743ad5, #d53a9d);
+    background-image:linear-gradient(to left, #743ad5, #3ab1d5);  
 }
 
 /* Establishes the gradient animation in the header title */ 
-.gradient-text {
-    background-image:linear-gradient(to left, #743ad5, #d53a9d);
-    
+.gradient-text {    
     /* Gradient color settings */
     background-image: linear-gradient(
           45deg,
-          #CA4246 16.666%, 
-          #E16541 16.666%, 
+          #f8c9c9 16.666%, 
+          #eeb09e 16.666%, 
           #E16541 33.333%, 
           #F18F43 33.333%, 
-          #F18F43 50%,  
-          #E16541 66.666%, 
-          #CA4246 83.333% );
+          #ff9748 50%,  
+          #f86f49 66.666%, 
+          #ff555b 83.333% );
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px; */
     -webkit-text-stroke-color: #020202;
+
     /* Animation event trigger for page load */
     animation: color-gradient-animation 0.75s ease forwards;
+
   }
 
 /* Animation event trigger for cursor hover on PJS-Development title */
@@ -127,7 +139,7 @@ header {
 
 /* sets the color gradient for the borders */
 .border-gradient-purple {
-    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    border-image-source: linear-gradient(to left, #743ad5, #3ab1d5);
   }
 
 /* Sets the style for navigation menu items */
@@ -172,7 +184,7 @@ header {
     -webkit-text-stroke-color: #341d57;
     -webkit-text-stroke-width: 1.5px;
     text-align: center;
-    background-image:linear-gradient(to left, #743ad5, #d53a9d);
+    background-image:linear-gradient(to left, #743ad5, #3ab1d5);
     align-self: flex-end;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -216,8 +228,8 @@ header {
     margin-left: 25px;
     margin-right: 25px;
     background-image: url("../images/Screenshot\ \(1\).png");
-    opacity: 1; /* initial opacity */
-    transition: opacity 0.5s ease; /* transition effect */
+    opacity: 1; 
+    transition: opacity 0.5s ease;
 }
 
 /* Establishes the opacity change when the user's cursor hovers over work tiles */
@@ -248,12 +260,11 @@ h5 {
     flex-direction: column;
     align-self: end;
     background-image:linear-gradient(to left, #743ad5, #d53a9d);
-    opacity: 1;
+    opacity: 1;    
 }
 
 /* Sets the link for the work-tile main tile */
 .work-label a {
-    /* display: none; */
     font-size: 50;
 }
 
@@ -303,7 +314,6 @@ h5 {
 /* sets the configuration for the contact-pjs list items */
 #contact-pjs-data ul li {
     display: inline-flex;
-    /* align-content: stretch; */
     list-style-type: none;
     justify-content: space-evenly;
     text-align: center;
@@ -316,8 +326,7 @@ h5 {
 }
 /* sets the size for the contact-pjs list icons */
 #email-icon, #mobile-icon, #github-icon, #spotify-icon, #youtube-icon {
-    /* display: flex; */
-    
+
     justify-content: center;
     height: 20vh;
     width: 20vh;
@@ -334,6 +343,7 @@ h5 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     color: #341d57;
+     
 }
 
 
